@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Table And Form</title>
+</head>
+<body>
+    <h1>HTML Table And Form</h1>
+        <p><em>Creating data table and using form with different types of inputs</em></p>
+        <hr>
+
+        <table border="1">
+            <thead>
+                <tr>
+                    <th colspan="2">Code</th>
+                    <th>Description</th>
+                </tr>
+            </thead>
+
+                <tr>
+                    <td>&lt;h1&gt;</td>
+                    <td>Headings 1-6</td>
+                    <td>Creates a strong text with large to small font size.</td>
+                </tr>
+                <tr>
+                    <td>&lt;p&gt;</td>
+                    <td>Paragraph</td>
+                    <td>Creates a simple text.</td>
+                </tr>
+
+                <tr>
+                    <td>&lt;hr&gt;</td>
+                    <td>Horizontal Rule</td>
+                    <td>Adds horizontal line with margin on top and bottom.</td>
+                </tr>
+
+                <tr>
+                    <td>&lt;br&gt;</td>
+                    <td>Break</td>
+                    <td>Breaks the line within a text.</td>
+                </tr>
+
+                <tr>
+                    <td>&lt;Strong&gt;</td>
+                    <td>Strong Font</td>
+                    <td>Adds importance to the text.</td>
+                </tr>
+
+                <tr>
+                    <td>&lt;em&gt;</td>
+                    <td>Emphasis</td>
+                    <td>Emphasizing the text or Italizing the content.</td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td align="center" colspan="3"><em>Basic HTML Codes </em></td>
+                </tr>
+            </tfoot>
+        </table>
+
+            <hr>
+
+        <h2>Registration Form</h2>
+            <p>Please input correct details.</p>
+
+            <br>
+
+        <form action="https://www.google.com">
+            <label for="fname">First Name</label><br>
+            <input type="text" id="fname" name="fname" required>
+            <br>
+
+            <label for="lname">Last Name</label><br>
+            <input type="text" id="lname" name="lname" required>
+            <br>
+
+            
+            <label for="email">Email</label><br>
+            <input type="email" id="email" name="email" required>
+            <br>
+
+            <label for="password">Password</label><br>
+            <input type="password" id="password" name="password" required>
+            <br>
+
+            <label for="contact">Contact Number</label><br>
+            <input type="number" id="number" name="number" required>
+            <br> 
+
+            <label for="dob">Date of Birth</label><br>
+            <input type="date" id="date" name="date" required>
+
+            <br>
+            <label for="gender">Select a Gender</label><br>
+            <select name="gender" id="gender" required>
+                <option value="m">--- Select ---</option>
+                <option value="m">Male</option>
+                <option value="f">Female</option>
+                <option value="o">Others</option>
+            </select>
+            <br> 
+
+            <label for="">Technologies I Use</label><br>
+            <input type="checkbox"><label for="">Git</label><br>
+            <input type="checkbox"><label for="">HTML</label><br>
+            <input type="checkbox"><label for="">CSS</label><br>
+            <input type="checkbox"><label for="">JS</label><br>
+            <input type="checkbox"><label for="">Bootstrap</label><br>
+            <input type="checkbox"><label for="">Express</label><br>
+            <input type="checkbox"><label for="">React</label><br>
+            <input type="checkbox"><label for="">Others</label><br>
+
+            <label for="noter">Notes</label><br>
+            <textarea name="notes" id="notes" rows="10"></textarea>
+
+            <br><br>
+
+            <button type="submit">Register</button>
+            <button type="reset">Reset</button>
+            
+    
+        </form>
+
+</body>
+</html>

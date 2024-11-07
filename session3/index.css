@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#navigation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+#navigation ul li{
+    display: flex;
+    flex-direction: row;
+    float: left;
+    list-style-type: none;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#navigation ul li a{
+    text-decoration: none;
+    color: azure;
+}
+
+#landing{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    margin-top: 5%;
+}
+
+#cover{
+    max-width: 80%;
+}
+
+#about{
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#about-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 60%;
+    padding: 50px;
+}
+
+#about-content h1{
+    margin-bottom: 10px;
+}
+
+#about-content p{
+    text-align: center;
+}
+
+#services{
+    background-color: aliceblue;
+    padding: 50px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card{
+    border: 2px solid black;
+    padding: 30px;
+    margin-top: 25px;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#service-card{
+    display: flex;
+}
+
+#contacts{
+    max-width: 100%;
+    background-color: crimson;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    color:aliceblue;
+}
+
+#contacts h1{
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+#contact-form{
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
